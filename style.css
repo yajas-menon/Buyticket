@@ -1,3 +1,7 @@
+.orange-header th {
+  background-color: #F99233 !important;
+  color: white !important;
+}
 
 body {
   user-select: none;
