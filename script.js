@@ -92,7 +92,7 @@ function renderDeals(deals) {
   dealsBody.innerHTML = '';
 
   if (!deals || deals.length === 0) {
-    dealsBody.innerHTML = `<tr><td colspan="13" class="text-center">No deals found.</td></tr>`;
+    dealsBody.innerHTML = `<tr><td colspan="9" class="text-center">No deals found.</td></tr>`;
     return;
   }
 
